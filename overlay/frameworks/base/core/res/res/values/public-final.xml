@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="bool" name="config_showNavigationBar" id="0x7f020000" />
+    <public type="bool" name="config_useDevInputEventForAudioJack" id="0x7f020002" />
+    <public type="xml" name="power_profile" id="0x7f040000" />
+</resources>
