@@ -172,7 +172,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xt \
+    android.hardware.biometrics.fingerprint@2.3-service \
     android.hardware.biometrics.fingerprint@2.3.vendor \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
@@ -472,7 +472,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal.xt \
+    android.hardware.sensors@2.0-service.multihal \
     libsensorndkbridge
 
 # Soong namespaces
