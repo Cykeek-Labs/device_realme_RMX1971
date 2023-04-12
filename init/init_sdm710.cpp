@@ -73,3 +73,7 @@ void vendor_load_properties() {
   // dalvikvm props
   load_dalvikvm_properties();
 }
+
+
+property_override("ro.apex.updatable", "false");
+}
